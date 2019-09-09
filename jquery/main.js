@@ -94,7 +94,8 @@ $("#navigation li a").click(function(e) {
     var targetPosition = $(targetElement).offset().top;
     $("html, body").animate({ scrollTop: targetPosition - 50 }, "slow");				 
         });
-        
+
+        $(function () {
         $.scrollUp({
     scrollName: 'scrollUp', // Element ID
     topDistance: '300', // Distance from top before showing element (px)
@@ -105,6 +106,6 @@ $("#navigation li a").click(function(e) {
     scrollText: 'Scroll to top', // Text for element
     activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
   }); 
-
+});
 
 		
