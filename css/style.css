@@ -398,7 +398,7 @@ canvas{
     }
     /*scrolltop*/
    #scrollUp {
-    background: url(../img/top.png);
+    background: #7DBA2F;
     height: 40px;
     width: 40px;
     right: 50px;
