@@ -396,3 +396,18 @@ canvas{
         color: #fff;
         }
     }
+    /*scrolltop*/
+   #scrollUp {
+    background: url(../img/top.png);
+    height: 40px;
+    width: 40px;
+    right: 30px;
+    bottom: 77px;
+    color: #fff;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 40px;
+    background-position: center;
+	
+}
